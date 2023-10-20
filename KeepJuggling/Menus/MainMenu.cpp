@@ -3,7 +3,7 @@
 MainMenu::MainMenu(Font* font)
 {
 	this->font = font;
-	title = font->CreateTexture(BIG_FONT, "KEEP JUMPING", { 255, 255, 255 });
+	title = font->CreateTexture(BIG_FONT, "KEEP JUGGLING", { 255, 255, 255 });
 	onePlayer = font->CreateTexture(SMALL_FONT, "PLAY", { 255, 255, 255 });
 	quit = font->CreateTexture(SMALL_FONT, "QUIT", { 255, 255, 255 });
 	onePlayerSelected = font->CreateTexture(SMALL_FONT, "PLAY", { 0, 0, 0 }, { 255, 255, 255 });
